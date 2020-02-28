@@ -2,10 +2,9 @@
 
 系统的逻辑功能图如下所示
 
-![LoigcFunction](E:\SourceTree\FiberAcquisitionCard\Image\LoigcFunction.PNG)
+![LoigcFunction](https://github.com/Lvwings/FiberAcquisitionCard/blob/feature/Image_update/Image/LoigcFunction.PNG?raw=true)
 
 <center>图0.1 系统逻辑功能图</center>
-
 整个系统主要可以分为以下四个部分：
 
 1. 时钟复位：连接外部时钟和复位端口，为各个模块产生时钟驱动以及复位
@@ -15,10 +14,9 @@
 
 ## 时钟复位
 
-![ClockDesign](E:\SourceTree\FiberAcquisitionCard\Image\ClockDesign.PNG)
+![ClockDesign](https://github.com/Lvwings/FiberAcquisitionCard/blob/feature/Image_update/Image/ClockDesign.PNG?raw=true)
 
 <center>图1.1 时钟设计图</center>
-
 对于FPGA来说，整个芯片的外围时钟主要分为三部分：
 
 1. 系统时钟SYS_CLK ： 由此产生系统主时钟 以及需要和主时钟同步的时钟
@@ -27,7 +25,7 @@
 
 ## 通信
 
-![CommunicationBlock](E:\SourceTree\FiberAcquisitionCard\Image\CommunicationBlock.PNG)
+![CommunicationBlock](https://github.com/Lvwings/FiberAcquisitionCard/blob/feature/Image_update/Image/CommunicationBlock.PNG?raw=true)
 
 通信最主要分为两个方向：以太网通信和串口通信
 
@@ -44,7 +42,7 @@
 
 ## 外围
 
-<img src="E:\SourceTree\FiberAcquisitionCard\Image\PeripheralCircuit.PNG" alt="PeripheralCircuit" style="zoom:67%;" />
+<img src="https://github.com/Lvwings/FiberAcquisitionCard/blob/feature/Image_update/Image/PeripheralCircuit.PNG?raw=true" alt="PeripheralCircuit" style="zoom:67%;" />
 
 主要的外围电路联系为：AD驱动和DDS驱动
 
